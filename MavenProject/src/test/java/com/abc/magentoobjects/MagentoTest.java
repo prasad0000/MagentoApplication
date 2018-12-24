@@ -14,14 +14,14 @@ public class MagentoTest {
 	@Test
 	public  void credintials() {
 		System.out.println("Automating magentoApplicatioin");
-		String url = "http://www.magento.com";
+		String url = "http://www.facebook.com";
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit. SECONDS);
 		
 		driver.get(url);
 		
-		Home h = new Home(driver);
+		/*Home h = new Home(driver);
 		h.clickOnMyAcc();
 		
 		Login l1 = new Login(driver);
@@ -31,7 +31,7 @@ public class MagentoTest {
 		
 		Logout l2 = new Logout(driver);
 		l2.clickOnLogout();
-		
+*/		
 		driver.quit();
 		
 		
