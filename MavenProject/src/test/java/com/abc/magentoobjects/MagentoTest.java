@@ -14,7 +14,7 @@ public class MagentoTest {
 	@Test
 	public  void credintials() {
 		System.out.println("Automating magentoApplicatioin");
-		String url = "http://www.facebook.com";
+		String url = "http://www.fb.com";
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit. SECONDS);
