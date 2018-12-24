@@ -3,12 +3,7 @@ package com.abc.magentoobjects;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
-
-import com.abc.magentoapplication.Home;
-import com.abc.magentoapplication.Login;
-import com.abc.magentoapplication.Logout;
 
 public class MagentoTest {
 	@Test
